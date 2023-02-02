@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13</title>
+</head>
+
+<body>
+
+    <script>
+
+        var numeros = [19, 54, 18, 11, 47, 98, 36, 44, 87];
+
+        function verificaNumero(numero) {
+            var existe = false;
+
+            for (let i = 0; i < numeros.length; i++) {
+                if (numero === numeros[i]) {
+                    existe = true;
+                    break;
+                }
+
+            }
+
+            return existe;
+        }
+
+        console.log(verificaNumero(36));
+
+    </script>
+</body>
+
+</html>
