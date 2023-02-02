@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>09</title>
+</head>
+
+<body>
+    <script>
+
+        var carros = ["Gol", "Palio", "Uno"];
+
+        for (let index = 0; index < carros.length; index++) {
+            console.log(carros[index]);
+        }
+
+        carros[3] = "Sandero";
+        carros[carros.length] = "Civic";
+
+        // Insere no final da lista
+        carros.push("Polo");
+        console.log(carros);
+
+        // Remove do final da lista
+        carros.pop();
+        console.log(carros);
+
+        // Insere no inicio da lista
+        carros.unshift("Jetta");
+        console.log(carros);
+
+        // Remove do inicio da lista
+        carros.shift();
+        console.log(carros);
+
+    </script>
+</body>
+
+</html>
