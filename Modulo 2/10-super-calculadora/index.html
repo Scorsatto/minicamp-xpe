@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Super Calculadora</title>
+</head>
+
+<body>
+    <header>
+        <h1>Super Calculadora</h1>
+    </header>
+
+    <div id="input">
+        <label for="input-A">Primeiro número (A)</label>
+        <input type="number" id="input-A" value="3" step="0.1">
+
+        <label for="input-B">Segundo número (B)</label>
+        <input type="number" id="input-B" value="2" step="0.1">
+
+        <button id="button-calculate">Calcular</button>
+    </div>
+
+    <div id="result">
+        <table class="table-result">
+            <tbody>
+                <tr>
+                    <td>Soma <br><strong id="sum"></strong></td>
+                    <td>Subtração A - B <br><strong id="subtractionAB"></strong></td>
+                    <td>Subtração B - A <br><strong id="subtractionBA"></strong></td>
+                </tr>
+                <tr>
+                    <td>Multiplicação <br><strong id="multiplication"></strong></td>
+                    <td>Divisão A / B <br><strong id="divisionAB"></strong></td>
+                    <td>Divisão B / A <br><strong id="divisionBA"></strong></td>
+                </tr>
+                <tr>
+                    <td>Potência de A na base B<br><strong id="potentiationAB"></strong></td>
+                    <td>Potência de B na base A<br><strong id="potentiationBA"></strong></td>
+                    <td>Raiz quadrada de A<br><strong id="squareRootA"></strong></td>
+                </tr>
+                <tr>
+                    <td>Raiz quadrada de B<br><strong id="squareRootB"></strong></td>
+                    <td>Fatorial de A<br><strong id="factorialA"></strong></td>
+                    <td>Fatorial de B<br><strong id="factorialB"></strong></td>
+                </tr>
+                <tr>
+                    <td>Porcentagem de A em relação a B<br><strong id="percentageAB"></strong></td>
+                    <td>Porcentagem de B em relação a A<br><strong id="percentageBA"></strong></td>
+                    <td>Média<br><strong id="average"></strong></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script defer src="./js/script.js"></script>
+</body>
+
+</html>
